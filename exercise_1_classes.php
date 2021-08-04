@@ -37,7 +37,5 @@ class Beverage
     }
 }
 
-$cola = new beverage('black', 2, 'Cold');
-$cola->getInfo();
+$cola = new beverage('black', 2, 'cold');
 
-var_dump($cola);
